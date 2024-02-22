@@ -5,9 +5,10 @@ node {
     }
     stage("show files"){
        steps {
-dir('C:\\Users\\AlaaZme1\\PycharmProjects\\MySoftware') {
-bat 'MySoftware.py'
-}
-}
-    }
+            dir('C:\\Users\\AlaaZme1\\PycharmProjects\\MySoftware') {
+            bat 'MySoftware.py'
+                  }
+       }
+   }
+
 }
