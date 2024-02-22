@@ -6,3 +6,7 @@ def Click():
 def Welcome():
     print("New Screen")
 
+
+
+Click()
+Welcome()
