@@ -1,4 +1,4 @@
-
+properties([[$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([pollSCM('30 * * * *')])])
 node {
     stage("clone") {
         git branch: 'master', url: 'https://github.com/AlaaZme/MySoftware.git'
